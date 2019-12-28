@@ -1,4 +1,5 @@
 根据Onewayticket255大佬Surge-Script仓库修改
+
 修改内容：脚本名称重命名。
 
 
@@ -41,6 +42,6 @@ http-response https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoo
 
 
 //bilibili解锁番剧地区限制,目前还在测试,可能部分番剧会出现问题。
-http-response https://api.bilibili.com/pgc/view/app/season requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cbislovely/surgescript/master/surge/surge_bilibili_season.js
-http-response https://api.bilibili.com/pgc/player/api/playurl requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cbislovely/surgescript/master/surge/surge_bilibili_playurl.js
+http-response https://api.bilibili.com/pgc/view/app/season requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cbislovely/surgescript/master/surge_bilibili_season.js
+http-response https://api.bilibili.com/pgc/player/api/playurl requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cbislovely/surgescript/master/surge_bilibili_playurl.js
 
